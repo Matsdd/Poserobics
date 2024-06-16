@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createContext, useContext, useCallback } from 'react';
-import PoseImage from './PoseImage'; // Adjust the path if necessary
-import { classifyPose } from '../Data/UseNN'; // Adjust the path as per your file structure
+import PoseImage from './PoseImage';
+import { classifyPose } from '../Data/UseNN';
 
 // Define the context
 const PoseContext = createContext();

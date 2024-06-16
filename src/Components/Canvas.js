@@ -3,7 +3,7 @@ import { Holistic } from '@mediapipe/holistic';
 import { Camera } from '@mediapipe/camera_utils';
 import { drawConnectors, drawLandmarks } from '@mediapipe/drawing_utils';
 import { classifyPose } from '../Data/UseNN';
-import { usePose } from './Poserobics'; // Import the usePose hook
+import { usePose } from './Poserobics';
 
 const POSE_CONNECTIONS = [
   [11, 13], [13, 15], [15, 19],
